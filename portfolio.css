@@ -5,8 +5,11 @@
 }
 
 body{
-   background: white;
+   background: #DFDFDF;
    
+}
+.container{
+    
 }
 .nav-container{
     background: rgba(51,11,51);
@@ -15,6 +18,9 @@ body{
     justify-content: space-between;
     color: white;
     padding: 20px;
+    position: sticky;
+    top: 0;
+   
 }
 
 .nav-links{
@@ -86,7 +92,7 @@ body{
 }
 
 .about-container{
-  
+    margin-top: 5rem;
 }
 
 .about-header{
@@ -98,12 +104,9 @@ body{
 .about-section{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    
 }
 
-.about-section h1{
-   
-}
 .about-image{
     margin-right: 4rem;
 }
@@ -118,6 +121,10 @@ body{
     margin-top: 3rem;
 }
 
+.skills-section{
+   
+}
+
 .skills-header{
     text-align: center;
     color: rgba(51,11,51);
@@ -125,21 +132,32 @@ body{
     margin-top: 3rem;
 }
 
+.skills-container{
+    margin-left: 4rem;
+}
+
 .icon-container{
     width: 70%;
     margin: auto;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .icon{
    height: 8rem;
    width: 8rem;
    margin-right: 5rem;
+   margin-top: 2rem;
    padding: 20px;
    border: none;
-   background: rgb(235, 219, 235);
 }
 
 .icon:hover{
-    background: white;
+    background: #DFDFDF;
+}
+
+.contact-header{
+    text-align: center;
+    color: rgba(51,11,51);
+    font-size: 20px;
+    margin-top: 3rem;
 }
