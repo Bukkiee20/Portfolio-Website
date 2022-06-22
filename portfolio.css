@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background: white;
+   
+}
+.nav-container{
+    background: rgba(51,11,51);
+    background: linear-gradient(90deg, rgba(51,11,51,1)0%, rgb(75, 71, 133)40%, rgba(171,26,26,1)100%);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+
+.nav-links{
+    
+}
+
+.nav-links a{
+    color: white;
+    font-size: 17px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+   color: rgba(51,11,51);
+}
+
+.image{
+   margin-right: 4rem;
+   height: 36rem
+}
+
+.image img{
+    height: 32rem;
+    margin-top: 20px;
+ 
+}
+
+
+.writeup-container{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+.writeups{
+    margin-top: 8rem;
+    width: 30rem;
+    height: 20rem;
+}
+
+.description{
+    color:  rgba(51,11,51);
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 2.5rem;
+    
+}
+
+.writeups p{
+    padding-top: 25px;
+    width: 50%;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px;
+    color: rgba(51,11,51);
+    font-weight: bold;
+    border: none;
+}
+
+.btn:hover{
+    border:2px solid rgba(51,11,51);
+    border-radius: 5px;
+}
+
+.about-container{
+  
+}
+
+.about-header{
+    text-align: center;
+    color: rgba(51,11,51);
+    font-size: 20px;
+}
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.about-section h1{
+   
+}
+.about-image{
+    margin-right: 4rem;
+}
+
+.about-image img{
+    height: 28rem;
+}
+
+.about-intro{
+    width: 25rem;
+    margin-right: 5rem;
+    margin-top: 3rem;
+}
+
+.skills-header{
+    text-align: center;
+    color: rgba(51,11,51);
+    font-size: 20px;
+    margin-top: 3rem;
+}
+
+.icon-container{
+    width: 70%;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+.icon{
+   height: 8rem;
+   width: 8rem;
+   margin-right: 5rem;
+   padding: 20px;
+   border: none;
+   background: rgb(235, 219, 235);
+}
+
+.icon:hover{
+    background: white;
+}
