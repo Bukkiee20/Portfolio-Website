@@ -16,8 +16,10 @@
             <div class="nav-links">
                 <a href="#about">About Me</a>
                 <a href="#skills">Skills</a>
-                <a href="#">Testimonials</a>
-                <a href="#">Contact Me</a>
+                <a href="#">Projects</a>
+            </div>
+            <div class="contact-me">
+                <button class="contact-btn"><a href="#contact">Contact Me</a></button>
             </div>
         </div>
 
@@ -28,7 +30,7 @@
                 buisness needs.</p>
                 <div class="buttons">
                     <button class="btn">Download CV</button>
-                    <button class="btn">Get in Touch</button>
+                    <button class="btn"><a href="#contact">Get in Touch</a></button>
                 </div>
           </div>
                <div class="image">
@@ -69,12 +71,33 @@
                </div>
             </div>
         </div>
+    
         
-        <div class="contact-container">
+        <div class="contact-container" id="contact">
            <div class="contact">
-            <div class="contact-header">
-                <h2>Get in Touch?</h2>
-            </div>
+               <div class="contact-header">
+                  <h2>Get in Touch?</h2>
+               </div>
+               <div class="contact-icons">
+                   <a href="https://facebook.com/adeyooye.victoria"><img src="facebook.png" alt="" class="social-icon"    target="_blank"></a>
+                   <img src="linkedin.png" alt="" class="social-icon">
+                   <a href="https://github.com/Bukkiee20"><img src="github.png" alt="" class="social-icon"></a>
+                   <a href="https://gmail.com/adeyooyebukola22@gmail.com"><img src="gmail.png" alt="" class="social-icon" target="_blank"></a>
+               </div>
+               <div class="form-container">
+                  <form method="POST">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="lastname" placeholder="Your email..">
+                
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="Drop your Message.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                 </form>
+               </div>
            </div>
 
         </div>
