@@ -87,7 +87,7 @@ body{
 .writeup-container{
     display: flex;
     justify-content: center;
- 
+    height: 100vh;
 }
 
 .writeups{
@@ -137,6 +137,7 @@ body{
 }
 .about-container{
     margin-top: 2rem;
+    
 }
 
 .about-section{
@@ -219,6 +220,7 @@ body{
     width: 2rem;
     height: 2rem;
     margin-left: 2rem;
+    cursor: pointer;
 }
 
 form{
@@ -288,10 +290,11 @@ input[type=submit]:hover {
 
     .writeups p{
         width: 78%;
+        padding-top: 25px;
     }
 
     .description{
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .btn2{
