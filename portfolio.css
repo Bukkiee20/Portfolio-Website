@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box!important;
     margin: 0;
     padding: 0;
 }
@@ -87,6 +87,7 @@ body{
 .writeup-container{
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 .writeups{
@@ -135,8 +136,40 @@ body{
    background-color: rgba(51,11,51);
 }
 .about-container{
+    margin-top: 2rem;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.about-header{
+    text-align: center;
+    color: rgba(51,11,51);
+    font-size: 20px;
+   
+}
+
+.about-image img{
+    height: 22rem;
+}
+
+.about-intro{
+    width: 50%;
+    font-size: 16px;
+    /* border: 2px solid black; */
+}
+
+/* .about-container{
     padding-top: 7rem;
-    height: 100vh;
+   
+    margin-bottom: 40px;
+    border: 3px solid black;
 }
 
 .about-header{
@@ -161,17 +194,18 @@ body{
 }
 
 .about-intro{
-    width: 25rem;
-    margin-top: 2rem;
-    padding-top: 2rem;
-}
+    width: 100%;
+    height: 300px;
+    /* margin-top: 2rem;
+    padding-top: 2rem; */
+/* } */ */
 
-.skills-section{
-    height: 100vh;
+/* .skills-section{
+    
    
-}
+} */
 
-.skills-header{
+/* .skills-header{
     text-align: center;
     color: rgba(51,11,51);
     font-size: 20px;
@@ -192,7 +226,7 @@ body{
 .icon img{
     height: 7rem;
     width: 7rem;
-}
+} */
 
 .contact-container{
     background-color: #dfdfdf;
@@ -298,11 +332,11 @@ input[type=submit]:hover {
         display: none;
     }
     
-    .about-container{
+    /* .about-container{
         padding-top: 7rem;
-        display: block;
+       margin-bottom: 40px;
         height: 700px;
-    }
+    } */
 
     .about-header{
         font-size: 17px;
@@ -325,14 +359,11 @@ input[type=submit]:hover {
         width: 100%;
         padding-top: 0;
         margin-top: 0;
-        border: 2px solid red;
     }
 
     .skills-section{
-        border: 2px solid yellow;
         /* height: fit-content; */
-        display: block;
-       margin-top: 40%;
+       /* margin-top: 40%!important;
 
     }
 
@@ -351,7 +382,7 @@ input[type=submit]:hover {
     .icon img{
         height: 5rem;
         width: 5rem;
-    }
+    } */
 
     .contact-container{
         margin-top: 4rem;
