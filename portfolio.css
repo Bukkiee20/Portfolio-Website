@@ -287,11 +287,11 @@ input[type=submit]:hover {
     }
 
     .writeups p{
-        width: 72%;
+        width: 78%;
     }
 
     .description{
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .btn2{
@@ -303,7 +303,7 @@ input[type=submit]:hover {
     }
     
     .about-container{
-        margin-top: 5rem;
+        margin-top: 7rem;
     }
 
     .about-header{
