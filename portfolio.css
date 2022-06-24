@@ -87,7 +87,7 @@ body{
 .writeup-container{
     display: flex;
     justify-content: center;
-    height: 100vh;
+ 
 }
 
 .writeups{
@@ -162,43 +162,10 @@ body{
 .about-intro{
     width: 50%;
     font-size: 16px;
-    /* border: 2px solid black; */
+    
 }
 
-/* .about-container{
-    padding-top: 7rem;
-   
-    margin-bottom: 40px;
-    border: 3px solid black;
-}
 
-.about-header{
-    text-align: center;
-    color: rgba(51,11,51);
-    font-size: 20px;
-}
-
-.about-section{
-    display: flex;
-    width: 70%;
-    margin: auto;
-    justify-content: space-between;
-} 
-
-.about-image{
-    margin-top: 2rem;
-}
-
-.about-image img{
-    height: 26rem;
-}
-
-.about-intro{
-    width: 100%;
-    height: 300px;
-    /* margin-top: 2rem;
-    padding-top: 2rem; */
-/* } */ */
 
 /* .skills-section{
     
@@ -300,6 +267,10 @@ input[type=submit]:hover {
         width: 80%;
     }
 
+    .nav-logo a{
+       font-size: 16px;
+    }
+
     .nav-links{
         display: none;
     }
@@ -308,12 +279,11 @@ input[type=submit]:hover {
         flex-direction: column;
         width: 100%;
         justify-content: center;
-        
     }
 
     .writeups{
         width: 100%;
-        margin-top: 7rem;
+        margin-top: 9rem;
     }
 
     .writeups p{
@@ -332,11 +302,9 @@ input[type=submit]:hover {
         display: none;
     }
     
-    /* .about-container{
-        padding-top: 7rem;
-       margin-bottom: 40px;
-        height: 700px;
-    } */
+    .about-container{
+        margin-top: 5rem;
+    }
 
     .about-header{
         font-size: 17px;
@@ -346,7 +314,6 @@ input[type=submit]:hover {
     .about-section{
         flex-direction: column;
         width: 100%;
-       
     }
      
 
@@ -361,7 +328,7 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 
-    .skills-section{
+    /* .skills-section{ */
         /* height: fit-content; */
        /* margin-top: 40%!important;
 
