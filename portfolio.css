@@ -1,7 +1,8 @@
 *{
-    box-sizing: border-box!important;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body{
@@ -106,7 +107,7 @@ body{
 
 .writeups p{
     padding-top: 25px;
-    width: 55%;
+    width: 59%;
 }
 
 .buttons{
@@ -162,7 +163,7 @@ body{
 
 .about-intro{
     width: 50%;
-    font-size: 16px;
+    font-size: 14px;
     
 }
 
@@ -187,9 +188,6 @@ body{
     padding-top: 2rem;
 }
 
-/* .icon-container{
-    width: 55%;
-} */
 .icon{
     margin: 2rem;
     
@@ -199,22 +197,7 @@ body{
     width: 6rem;
     height: 6rem;
 }
-/*
-.icon-container{
-    width: 70%;
-    margin: auto;
-    padding-top: 4rem;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-row-gap: 5rem;
-    flex-wrap: wrap;
-}
 
-
-.icon img{
-    height: 7rem;
-    width: 7rem;
-} */
 
 .contact-container{
     background-color: #dfdfdf;
@@ -309,8 +292,8 @@ input[type=submit]:hover {
     }
 
     .writeups p{
-        width: 78%;
-        padding-top: 25px;
+        width: 83%;
+        padding-top: 15px;
     }
 
     .description{
@@ -361,6 +344,7 @@ input[type=submit]:hover {
     .skills-header{
         font-size: 17px;
         text-align: justify;
+        padding-left: 1.5rem;
     }
 
     .icon{
@@ -373,8 +357,22 @@ input[type=submit]:hover {
         height: 5rem;
     }
 
+    .contact-header{
+        font-size: 17px;
+        text-align: justify;
+        padding-left: 2rem;
+    }
     .contact-container{
-        margin-top: 4rem;
+        padding-top: 2rem;
+    }
+
+    .contact-icons{
+        width: 100%;
+       
+    }
+
+    .social-icon{
+        margin-left: 1rem;
     }
 
     form{
