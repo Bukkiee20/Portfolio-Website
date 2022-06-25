@@ -31,6 +31,7 @@ body{
 .nav-logo a{
    text-decoration: none;
    color: white;
+   cursor: pointer;
 }
 
 .nav-links{
@@ -87,7 +88,6 @@ body{
 .writeup-container{
     display: flex;
     justify-content: center;
-    height: 100vh;
 }
 
 .writeups{
@@ -294,7 +294,7 @@ input[type=submit]:hover {
     }
 
     .description{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .btn2{
@@ -312,6 +312,7 @@ input[type=submit]:hover {
     .about-header{
         font-size: 17px;
         text-align: justify;
+        padding-top: 2rem;
     }
 
     .about-section{
