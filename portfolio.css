@@ -168,18 +168,38 @@ body{
 
 
 
-/* .skills-section{
-    
-   
-} */
+.skills-section{
+    margin-top: 4rem;
+}
 
-/* .skills-header{
+.skills-header{
     text-align: center;
     color: rgba(51,11,51);
     font-size: 20px;
   
 }
 
+.skills-container{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+/* .icon-container{
+    width: 55%;
+} */
+.icon{
+    margin: 2rem;
+    
+}
+
+.icon img{
+    width: 6rem;
+    height: 6rem;
+}
+/*
 .icon-container{
     width: 70%;
     margin: auto;
@@ -332,28 +352,21 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 
-    /* .skills-section{ */
-        /* height: fit-content; */
-       /* margin-top: 40%!important;
+    .skills-container{
+        width: 90%;
+       
 
     }
 
-    .skills-header{
-        font-size: 17px;
-        text-align: justify;
-    }
-    
-    .icon-container{
-        grid-template-columns: auto auto;
-        grid-column-gap: 3rem;
-        grid-row-gap: 3rem;
+    .icon{
+        margin: 1.5rem;
         
     }
-    
+
     .icon img{
-        height: 5rem;
         width: 5rem;
-    } */
+        height: 5rem;
+    }
 
     .contact-container{
         margin-top: 4rem;
@@ -363,11 +376,4 @@ input[type=submit]:hover {
         width: 90%;
         margin: auto;
     }
-
-    /* .icon{
-        height: 6rem;
-        width: 6rem;
-        margin: auto;
-        padding: 10px;
-    } */
 }
