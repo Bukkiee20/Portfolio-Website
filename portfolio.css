@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    list-style-type: none;
 }
 
 body{
@@ -21,7 +22,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 15px;
+    padding: 25px;
     position: sticky;
     top: 0;
     width: 100%;
@@ -35,9 +36,19 @@ body{
    cursor: pointer;
 }
 
-.nav-links{
-    padding-right: 7rem;
+.hamburger{
+   display: none;
 }
+
+.nav-links{
+    padding-right: 3rem;
+    
+}
+
+.nav-links li{
+    display: inline-block;
+}
+
 
 .nav-links a{
     color: white;
@@ -275,8 +286,56 @@ input[type=submit]:hover {
     .nav-logo a{
        font-size: 16px;
     }
+    
+    .hamburger{
+        display: block;
+        height: 2rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .hamburger img{
+        width: 2rem;
+        height: 2rem;
+        
+    }
 
     .nav-links{
+        position: absolute;
+        top: 82px;
+        right: 0;
+        width: 100vw;
+        height: 0;
+        overflow: hidden;
+        background-color: black;
+        transition: width 2s;
+        opacity: 0.6;
+       
+    }
+     
+   .nav-links.active{
+       height: 100vh;
+       width: 50%;
+   }
+    .nav-links ul{
+        width: fit-content;
+        margin-top: 40px;
+        transition: 2s;
+        
+    }
+
+    .nav-links li{
+        display: block;
+        margin: 30px 0;
+    }
+
+    .nav-links li a{
+       color: white;
+       
+    }
+ 
+    
+    .contact-me{
         display: none;
     }
 
