@@ -314,7 +314,7 @@ input[type=submit]:hover {
     }
      
    .nav-links.active{
-       height: 100vh;
+       height: 250px;
        width: 50%;
    }
     .nav-links ul{
