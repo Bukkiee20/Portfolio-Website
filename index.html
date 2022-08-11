@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 </head>
 <body>
         <div class="nav-container">
             <div class="nav-logo">
                 <h3><a href="#">Oluwabukola Adeyooye</a></h3>
             </div>
-            <div class="hamburger">
+            <div class="hamburger" id="hamburger">
                 <img src="images/menu.png" alt="">
             </div>
-            <div class="nav-links active">
+            <div class="nav-links active" id="nav-links">
                 <ul>
                   <li><a href="#about">About Me</a></li>
                   <li><a href="#skills">Skills</a></li>
@@ -113,7 +114,8 @@
                    <a href="mailto:adeyooyebukola22@gmail.com"  target="_blank"><img src="images/gmail.png" alt="" class="social-icon"></a>
                </div>
                <div class="form-container">
-                  <form method="POST">
+                  <form action="https://send.pageclip.co/vtWoL1DKtlOORgQoUJK9W0ybI1bokzHb" class="pageclip-form"
+                  method="POST">
                     <label for="fname">Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
                 
@@ -123,12 +125,13 @@
                     <label for="subject">Message</label>
                     <textarea id="subject" name="subject" placeholder="Drop your Message.." style="height:200px"></textarea>
                 
-                    <input type="submit" value="Submit">
+                    <button type="submit" class="pageclip-form__submit">Submit</button>
                  </form>
                </div>
            </div>
         </div>
     </div>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="portfolio.js"></script>
 </body>
